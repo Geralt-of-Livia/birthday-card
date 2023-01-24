@@ -6,6 +6,7 @@ body {
   background-image: url('img/bg.png');
 }
 
+
 .birthdayCard {
   position: relative;
   width: 250px;
@@ -13,11 +14,12 @@ body {
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
+   transform: scale(2);
   transition: 1s;
 }
 
 .birthdayCard:hover {
-  transform: perspective(2500px) rotate(5deg);
+  transform: perspective(2500px) rotate(5deg) scale(4);
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
 }
 
