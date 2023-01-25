@@ -133,8 +133,10 @@ body {
 
 p {
   font-family: 'Brush Script MT', cursive;
-  margin: 40px;
   color: #333;
+  font-size: 12px;
+  line-height: 13px;
+  margin:10 auto;
 }
 
 .name {
@@ -151,6 +153,7 @@ p {
   margin:30px; 
   outline-color:#333;
   outline-style: dotted;
+  line-height: 1 px;
 }
 .box {
   font-family: STKaiti, sans-serif;
@@ -159,6 +162,6 @@ p {
  -webkit-background-clip: text; 
  -webkit-text-fill-color: transparent; 
   text-align: center;
-  margin:30px; 
+  margin:10px; 
   outline-color:#333;
 }
